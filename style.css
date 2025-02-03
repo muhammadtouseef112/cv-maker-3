@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+    font-family: "Poppins" , "serif";
+}
+h1,h3{
+    padding: 15px 0px;
+}
+h3{
+    font-size: 24px;
+}
+input{
+    width: 20%;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+#Education2,#skills1{
+    width: 22%;
+    border: solid 2px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+#createcv{
+    background-color: black;
+    color: white;
+}
+#btn{
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: burlywood;
+    color: black;
+    border-radius: 30px;
+
+}
+#createcv li{
+    font-size: 18px;
+}
+#createcv h1,h2{
+    font-size: 34px;
+    text-transform: capitalize;
+}
+#createcv h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}

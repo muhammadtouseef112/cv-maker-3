@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ga+Maamli&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Pacifico&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>CV GENERATOR</h1>
+    <form>
+        <h3>Select an Image</h3>
+        <label for=""><input type="file" id="imageUpload" accept="image/*" /></label>
+      
+        <h3>Name</h3>
+        <input type="text" placeholder="Enter name" id="Name" />
+        <br />
+      
+        <h3>Father name</h3>
+        <input type="text" id="father-name" placeholder="Enter Father Name" />
+        <br />
+      
+        <h3>Education</h3>
+        <select id="Education2">
+          <option value=""></option>
+          <option value="matric">Matric</option>
+          <option value="Inter">Intermediate</option>
+          <option value="Bachelors">Bachelors</option>
+        </select>
+        <br />
+      
+        <h3>Skills</h3>
+        <select id="skills1">
+          <option value=""></option>
+          <option value="MS Office">MS Office</option>
+          <option value="Front-end Developer">Front-End Developer</option>
+          <option value="Backend Developer">Backend Developer</option>
+        </select>
+      </form>
+      <br />
+      <button id="btn" onclick="Makecv()">Make CV</button>
+      <br />
+      <br />
+      <div id="cv-content" style="display: none">
+        <div id="createcv"></div>
+      </div>
+      
+      <!-- Image Preview Section -->
+      <div id="imagePreviewContainer">
+        <img id="imagePreview" src="" style="max-width: 250px; height: 200px;" />
+      </div>
+      
+    <script src="app.js"></script>
+  </body>
+</html>
